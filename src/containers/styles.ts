@@ -13,3 +13,17 @@ export const Produtos = styled.ul`
     grid-template-columns: 1fr;
   }
 `
+export const Carregando = styled.div`
+  display: flex;
+  width: 100%;
+  height: 900px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: blue;
+  }
+`
